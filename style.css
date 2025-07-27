@@ -1,0 +1,21 @@
+/* Đặt nền toàn bộ trang */
+body {
+    background-color: rgb(73, 106, 215);
+    font-family: time 'Times New Roman', Times, serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(29, 109, 26, 0.1);
+    width: 320px;
+}
+.login-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
